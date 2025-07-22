@@ -1,9 +1,9 @@
 import {ICar} from "@/models/ICar";
-import {carsService} from "@/services/cars.service";
+import {getAllCars} from "@/services/cars.service";
 import {Box, Grid, Paper, Typography} from "@mui/material";
 
 export const Cars = async () => {
-    const cars: ICar[] = await carsService.getAllCars();
+    const cars: ICar[] = await getAllCars();
 
     return (
         <Box sx={{p: 4, height: '100vh' }}>
