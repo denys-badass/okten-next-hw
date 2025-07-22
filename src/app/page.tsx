@@ -1,7 +1,9 @@
+import {Container} from "@mui/material";
+
 export default function Home() {
   return (
-    <div>
+    <Container maxWidth={'xl'} sx={{p: 4, textAlign: "center"}}>
         Main Page
-    </div>
+    </Container>
   );
 }
