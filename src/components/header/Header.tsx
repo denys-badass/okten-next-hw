@@ -11,7 +11,7 @@ export const Header = () => {
                     <Button href={'/cars'}>Show Cars</Button>
                 </Box>
                 <Box>
-                    <Button>Add Car</Button>
+                    <Button href={'/cars/add'}>Add Car</Button>
                 </Box>
             </Box>
         </Paper>
