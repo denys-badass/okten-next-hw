@@ -1,6 +1,6 @@
 export interface ICar {
-    id: number;
+    id?: number;
     brand: string;
     price: number;
-    year: 2024;
+    year: number;
 }
